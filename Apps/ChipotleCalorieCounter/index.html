@@ -1,0 +1,80 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+   "http://www.w3.org/TR/html4/strict.dtd">
+<head>
+	<link href="C:\Users\Coleman\Documents\Webpages\Apps\ChipotleCalorieCounter\style.css" rel="stylesheet" type="text/css" />
+	
+	<script type="text/javascript" src="C:\Users\Coleman\Documents\Webpages\Apps\ChipotleCalorieCounter\functions.js"></script>
+
+</head>
+
+<body>
+
+See how your choices in making your Chipotle burrito affect the calorie count.</br>
+
+	<div id="covering_choice">
+		<form>
+			Burrito: <input type="checkbox" name="burrito" onclick="resize_div_covering()"/>
+			Burrito Bowl: <input type="checkbox" name="b_bowl" />
+			Salad: <input type="checkbox" name="salad" />
+			Tacos: <input type="checkbox" name="tacos" />
+		</form>
+	</div>
+	
+	<div id="covering_meter">
+	</div>
+	
+	<div id="filling">
+		<form>
+			Chicken: <input type="checkbox" name="chicken" onclick="filling_response()"/><br />
+			Steak: <input type="checkbox" name="steak" /><br />
+			Barbacoa: <input type="checkbox" name="barbacoa" /><br />
+			Carnitas: <input type="checkbox" name="carnitas" /><br />
+		</form>
+	</div>
+	
+	<div id="filling_meter">
+	</div>	
+	
+<!-- 	
+	<div id="additional">
+		<form>
+			White Rice: <input type="checkbox" name="white_rice" onclick="resize_div_covering()"/><br />
+			Brown Rice: <input type="checkbox" name="brown_rice" /><br />
+			Black Beans: <input type="checkbox" name="salad" /><br />
+			Pinto Beans: <input type="checkbox" name="tacos" /><br />
+			Fajita Vegetables: <input type="checkbox" name="tacos" /><br />
+			Fresh Tomato Salsa: <input type="checkbox" name="tacos" /><br />
+			Roasted Chili-Corn Salsa: <input type="checkbox" name="tacos" /><br />
+			Tomatillo-Green Chili Salsa: <input type="checkbox" name="tacos" /><br />
+			Tomatillo-Red Chili Salsa: <input type="checkbox" name="tacos" /><br />
+			Sour Cream: <input type="checkbox" name="tacos" /><br />
+			Cheese: <input type="checkbox" name="tacos" /><br />
+			Guacamole: <input type="checkbox" name="tacos" /><br />
+			Romaine Lettuce: <input type="checkbox" name="tacos" /><br />
+		</form>
+	</div>
+	
+	
+	<div id="chips_salsa">
+		<form>
+			Chips: <input type="checkbox" name="burrito" onclick="resize_div_covering()"/><br />
+			Chips & Fresh Tomato Salsa: <input type="checkbox" name="b_bowl" /><br />
+			Chips & Guacamole: <input type="checkbox" name="salad" /><br />
+			Chips & Roasted Chili-Corn Salsa: <input type="checkbox" name="tacos" /><br />
+			Chips & Tomatillo-Green Chili Salsa: <input type="checkbox" name="tacos" /><br />
+			Chips & Tomatillo-Red Chili Salsa: <input type="checkbox" name="tacos" /><br />
+			
+		</form>
+	</div> -->
+	
+	<div id="total">
+	Total
+	<button onclick="totaller()">How many calories total?</button>
+	</div>
+	
+	<div id="total_amount">
+	</div>
+	
+
+</body>
+
