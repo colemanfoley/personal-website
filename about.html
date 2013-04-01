@@ -1,32 +1,45 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
-
+<!DOCTYPE html>
 <html>
-	<head>
-		<link rel="stylesheet" type="text/css" href="style.css" />
-	</head>
-	<body>
-	
-		<nav id="topBar">
-			<a href="index.html">Home</a>&nbsp;&nbsp;&nbsp;  
-			<a href="about.html">About</a>&nbsp;&nbsp;&nbsp; 
-			<a href="apps.html">Apps</a>&nbsp;&nbsp;&nbsp; 
-			<a href="http://colemanfoley.com">Blog</a>&nbsp;&nbsp;&nbsp;
-			<a href="contact.html">Contact</a>
-		</nav>
-
-		<section class="content">
-			<p>
-				I was born and raised in Marysville, CA, a small town in Northern California. I recently moved to San Francisco to attend <a href="http://hackreactor.com/">Hack Reactor</a>, an intensive front-end web development course.
-			</p>
-
-			<iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Marysville,+CA&amp;aq=0&amp;oq=marysville,+ca&amp;sll=37.269174,-119.306607&amp;sspn=11.358475,16.435547&amp;t=m&amp;ie=UTF8&amp;hq=&amp;hnear=Marysville,+Yuba,+California&amp;ll=39.13006,-121.59668&amp;spn=11.923805,18.676758&amp;z=5&amp;iwloc=A&amp;output=embed"></iframe><br /><small><a href="https://www.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Marysville,+CA&amp;aq=0&amp;oq=marysville,+ca&amp;sll=37.269174,-119.306607&amp;sspn=11.358475,16.435547&amp;t=m&amp;ie=UTF8&amp;hq=&amp;hnear=Marysville,+Yuba,+California&amp;ll=39.13006,-121.59668&amp;spn=11.923805,18.676758&amp;z=5&amp;iwloc=A" style="color:#0000FF;text-align:left">View Larger Map</a></small>
-		</section>
-	
-	</body>
+  <head>
+    <style>
+      body {
+        padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
+      }
+    </style>
+    <title>Coleman Foley</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+  </head>
+  <div class="container">
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="brand" href="index.html">CF</a>
+          <div class="nav-collapse collapse">
+            <ul class="nav">
+              <li><a href="index.html">Home</a></li>
+              <li class="active"><a href="#">About</a></li>
+              <li><a href="apps.html">Apps</a></li>              
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div>
+      </div>
+    </div>
+    <body>
+        <article>
+          <p>
+            I was born and raised in Marysville, CA, a small town in Northern California. I recently moved to San Francisco to attend <a href="http://hackreactor.com/">Hack Reactor</a>, an intensive front-end web development course.
+          </p>
+        </article>
+      <script src="http://code.jquery.com/jquery.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+    </body>
+  </div>
 </html>
-
-
-
-
-
-

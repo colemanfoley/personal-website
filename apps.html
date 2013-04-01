@@ -1,25 +1,47 @@
-
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
-
+<!DOCTYPE html>
 <html>
-	<head>
-		<link rel="stylesheet" type="text/css" href="style.css" />
-	</head>
+  <head>
+    <style>
+      body {
+        padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
+      }
+    </style>
+    <title>Coleman Foley</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+  </head>
+  <div class="container">
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="brand" href="index.html">CF</a>
+          <div class="nav-collapse collapse">
+            <ul class="nav">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li class="active"><a href="#">Apps</a></li>              
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div>
+      </div>
+    </div>
+    <body>
+        <article>
+          <h3><a href="Apps\ProgrammingPath\index.html">Programming Path</a></h3>
+          <p>
+            This was the first complete, working page I made outside of my personal website. It is a very basic guide to learning web development. As you make choices about what technology you want to learn and what you learning style is, it updates.
+          </p>
 
-	<body>
-		<nav id="topBar">
-			<a href="index.html">Home</a>&nbsp;&nbsp;&nbsp;  
-			<a href="about.html">About</a>&nbsp;&nbsp;&nbsp; 
-			<a href="apps.html">Apps</a>&nbsp;&nbsp;&nbsp; 
-			<a href="http://colemanfoley.com">Blog</a>&nbsp;&nbsp;&nbsp;
-			<a href="contact.html">Contact</a>
-		</nav>
-
-		<section id="content">
-			<p>
-			<a href="Apps\ProgrammingPath\index.html">Programming Path</a></br>
-			</p>
-		</section>
-	</body>
-	
+        </article>
+      <script src="http://code.jquery.com/jquery.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+    </body>
+  </div>
 </html>
