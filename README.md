@@ -1,0 +1,1 @@
+This is my personal website. It is an adaptation of the [Bootstrap starter template](http://twitter.github.com/bootstrap/examples/starter-template.html).
