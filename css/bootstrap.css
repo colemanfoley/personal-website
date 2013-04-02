@@ -99,11 +99,13 @@ sub {
 }
 
 img {
+  display: block;
   width: auto\9;
   height: auto;
   max-width: 100%;
   vertical-align: middle;
   border: 0;
+  margin: 0 auto;
   -ms-interpolation-mode: bicubic;
 }
 
@@ -6155,4 +6157,8 @@ a.badge:focus {
 
 .affix {
   position: fixed;
+}
+
+article {
+  text-align: center;
 }
