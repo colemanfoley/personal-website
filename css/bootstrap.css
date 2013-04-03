@@ -291,7 +291,7 @@ a:focus {
 .navbar-static-top .container,
 .navbar-fixed-top .container,
 .navbar-fixed-bottom .container {
-  width: 940px;
+  width: 612px;
 }
 
 .span12 {
@@ -620,6 +620,7 @@ a:focus {
   margin-right: auto;
   margin-left: auto;
   *zoom: 1;
+  width: 612px;
 }
 
 .container:before,
@@ -6161,4 +6162,13 @@ a.badge:focus {
 
 article {
   text-align: center;
+  font-size: 150%;
+}
+
+ul.nav.floated-right {
+  float: right;
+}
+
+.container .narrow {
+  width: 612px;
 }
